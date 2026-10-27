@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "gambleutils",
+  "version": "${version}",
+  "name": "GambleUtils",
+  "description": "Simple client-side DonutSMP auction helper with configurable themes and worth estimates.",
+  "authors": ["GambleUtils project"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.gambleutils.GambleUtilsClient"] },
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "26.2", "java": ">=25", "fabric-api": "*" }
+}
